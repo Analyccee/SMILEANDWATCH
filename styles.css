@@ -1,0 +1,52 @@
+body {
+    color: #ffffff;
+    background: rgb(27 19 46);
+    margin: 0px;
+    font-family: "Arima", system-ui;
+    margin-bottom: 100px;
+}
+header {
+    border-bottom: solid 2px rgb(144 97 255);
+    padding: 12px;
+    font-size: 25px;
+    color: rgb(237 230 255)
+}
+section {
+    background: rgb(27 19 46);
+    padding-bottom: 60px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 70px;
+}
+h1 {
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+}
+img{
+  height:95px;
+}
+.footer{
+position:fixed;
+bottom:0;
+width:90%;
+text-align:center;
+padding:20px;
+display: flex;
+overflow-x: auto;
+gap:10px;
+}
+.footer img {
+  opacity:0.4;
+}
+.footer img:hover {
+  opacity: 1.0;
+  border: 1px solid rgb(144 97 255);
+}
+.categoria h2{
+  color:rgb(237 230 255)
+}
